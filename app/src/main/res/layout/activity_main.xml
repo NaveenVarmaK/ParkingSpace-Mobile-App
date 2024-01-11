@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parking Sapce"
+        android:textSize="32dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This Application will allow you to book a parking slot from the required location that are available"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:padding="20dp"
+        />
+<!--    <FrameLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/ParkingSpaceLayout"-->
+<!--        >-->
+
+<!--        -->
+
+<!--        -->
+<!--    </FrameLayout>-->
+    <Button
+        android:id="@+id/SlotButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Slots" />
+    <Button
+        android:id="@+id/YourBookingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+
+
+</LinearLayout>
